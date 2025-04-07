@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: flask-container
-        image: rohith1305/python-flask
+        image: rohith1305/python-flask:latest
         ports:
         - containerPort: 5000
 ---
